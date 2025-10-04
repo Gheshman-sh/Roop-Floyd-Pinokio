@@ -24,26 +24,18 @@ module.exports = {
         href: "install.js",
       }]
     } else if (installed) {
-      if (running.start) {
-        let local = info.local("start.js")
-        if (local && local.url) {
-          return [{
-            default: true,
-            icon: "fa-solid fa-rocket",
-            text: "Open Web UI",
-            href: local.url,
-          }, {
-            icon: 'fa-solid fa-terminal',
-            text: "Terminal",
-            href: "start.js",
-          }]
-        } else {
-          return [{
-            default: true,
-            icon: 'fa-solid fa-terminal',
-            text: "Terminal",
-            href: "start.js",
-          }]
+        if (running.start) {
+            const localURL = "http://127.0.0.1:7860";
+            return [{
+                default: true,
+                icon: "fa-solid fa-rocket",
+                text: "Open Web UI",
+                href: localURL,
+            }, {
+                icon: 'fa-solid fa-terminal',
+                text: "Terminal",
+                href: "start.js",
+            }];
         }
       } else if (running.update) {
         return [{
@@ -101,3 +93,4 @@ module.exports = {
     }
   }
 }
+
