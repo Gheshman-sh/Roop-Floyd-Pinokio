@@ -29,3 +29,12 @@ PINOKIO_SHARE_LOCAL_PORT=7860
 
 # 🎯 Pinokio app port (default 80; recommend 7860 to avoid admin issues)
 PINOKIO_PORT=7860
+
+# 🖥 Force Gradio GUI to open locally in browser
+GRADIO_SERVER_NAME=127.0.0.1
+GRADIO_SERVER_PORT=7860
+GRADIO_ENABLE_QUEUE=true
+GRADIO_ALLOW_FLAGGING=never
+
+# 💻 Ensure CUDA device used by default
+CUDA_VISIBLE_DEVICES=0
