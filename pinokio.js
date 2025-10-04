@@ -36,7 +36,7 @@ module.exports = {
       // When app is running
       if (running.start) {
         kernel.log("⏳ Waiting 10 seconds for Web UI to initialize...");
-        await delay(10000);
+        await delay(15000);
         const localURL = "http://127.0.0.1:7860";
 
         return [
@@ -135,4 +135,5 @@ module.exports = {
     }
   },
 };
+
 
