@@ -19,7 +19,7 @@ module.exports = {
         venv: "{{args && args.venv ? args.venv : 'env'}}",
         path: "{{args && args.path ? args.path : '.'}}",
         message: [
-          "pip install onnxruntime-gpu==1.17.1"
+          "pip install onnxruntime-gpu==1.17.1 --extra-index-url https://download.pytorch.org/whl/cu121"
         ]
       }
     },
@@ -49,3 +49,4 @@ module.exports = {
     }
   ]
 };
+
