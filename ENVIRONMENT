@@ -1,0 +1,31 @@
+##########################################################################
+# PINOKIO APP ENVIRONMENT SETTINGS
+##########################################################################
+
+# 🌍 Share app publicly via Cloudflare (false = off, true = on)
+PINOKIO_SHARE_CLOUDFLARE=false
+
+# 🔑 Passcode protection for shared Cloudflare link
+# If left blank, anyone with the link can access
+PINOKIO_SHARE_PASSCODE=
+
+# 🚀 Should Pinokio auto-run default scripts on app start?
+PINOKIO_SCRIPT_DEFAULT=true
+
+# 📂 Temporary directory for uploaded files (Gradio)
+GRADIO_TEMP_DIR=./cache/GRADIO_TEMP_DIR
+
+# 🤗 Hugging Face model cache
+HF_HOME=./cache/HF_HOME
+
+# 🔥 Torch hub model cache
+TORCH_HOME=./cache/TORCH_HOME
+
+# 🌐 Share on local network (false = off, true = on)
+PINOKIO_SHARE_LOCAL=true
+
+# 🛠 Local network port (optional, blank = random)
+PINOKIO_SHARE_LOCAL_PORT=7860
+
+# 🎯 Pinokio app port (default 80; recommend 7860 to avoid admin issues)
+PINOKIO_PORT=7860
