@@ -1,6 +1,5 @@
 const path = require("path");
 
-// simple async delay
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 module.exports = {
@@ -136,3 +135,4 @@ module.exports = {
     }
   },
 };
+
