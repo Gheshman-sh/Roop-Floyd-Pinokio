@@ -2,7 +2,7 @@
 
 Roop-Floyd is a next-generation face-swapping and enhancement tool, forked and actively developed on [Codeberg](https://codeberg.org/Cognibuild/ROOP-FLOYD).
 
-This Pinokio package is designed to run on Windows PCs and is optimized for NVIDIA 30 and 40 series GPUs.
+This Pinokio package is designed to run on Windows PCs and is optimized for NVIDIA 30 and 40 series GPUs ( you can change torch.js to make it run on other GPUs ).
 
 It makes it easy to install and run Roop-Floyd inside [Pinokio](https://pinokio.computer).
 
@@ -14,5 +14,6 @@ Pinokio Edition adaptation by [Geshman Shakeel](https://github.com/Gheshman-sh).
 
 You are **free to copy, modify, and adapt** this project however you like.  
 Attribution to the original authors is appreciated but not required.
+
 
 
