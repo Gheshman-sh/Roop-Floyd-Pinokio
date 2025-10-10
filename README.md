@@ -7,4 +7,10 @@ This Pinokio package is designed to run on Windows PCs and is optimized for NVID
 It makes it easy to install and run Roop-Floyd inside [Pinokio](https://pinokio.computer).
 
 **Credits:**  
-Original development by CodeFloyd.
+Original development by CodeFloyd.  
+Pinokio Edition adaptation by [Geshman Shakeel](https://github.com/Gheshman-sh).
+
+---
+
+You are **free to copy, modify, and adapt** this project however you like.  
+Attribution to the original authors is appreciated but not required.
